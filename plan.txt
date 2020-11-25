@@ -1,0 +1,9 @@
+A simple tax calculator built with Django. 
+
+Plan:
+
+1. Create simple interface: Title, Description, Form
+2. Write logic for tax calculator in a script
+3. Write tests for the logic 
+4. Integrate the logic with the webapp using the form
+
