@@ -26,15 +26,17 @@
 			<section id="banner">
 				<div class="content">
 					<h1>UK Income Tax Calculator</h1>
-					<p>This simple income tax calulator will take your gross salary and apply the following tax bands to them, and the output will be the adjusted salary.</p>
+					<p>This simple income tax calulator will take your gross salary and apply the following tax bands to them. The output will be the adjusted salary.</p>
 				
-					<form method="post">
+					<form method="post" style="width: 50%; margin: auto;">
 						{% csrf_token %}
-						<p>Salary: {{ form.email }} </p>
+						<p>Salary: {{ form.salary }} </p>
 						<div class="form-actions">
 						<button class="boxed-btn3" type="submit">Send</button>
 						</div>
 					</form>
+					<p>Taxed Salary: {{ output }}</p>
+					<p> Band: </p>
 				</div>
 
 
