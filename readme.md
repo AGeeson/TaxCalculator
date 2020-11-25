@@ -9,6 +9,7 @@ Plan:
 5. Write tests for the form on the webapp ( CURRENTLY HERE)
 
 Additional:
+
 5. Create query class, for each time form gets posted query is created and saved to database
 5. Write test for query class
 6. Refactor Python logic
