@@ -1,6 +1,7 @@
 #The logic for calculating the output of a salary, by applying the relavent tax band to the input
 import itertools
 
+# A function for calculating the output of a salary after tax
 def calculateTaxedSalary(salary):
     output = 0
     band = ""
